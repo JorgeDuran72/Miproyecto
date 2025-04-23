@@ -1,0 +1,36 @@
+# === COMPILADOS Y FICHEROS TEMPORALES ===
+*.class
+*.exe
+*.out
+*.o
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === PYTHON ===
+__pycache__/
+*.pyc
+
+# === JAVA ===
+/bin/
+/out/
+/target/
+
+# === IDEs ===
+.idea/
+*.iml
+.vscode/
+
+# === SISTEMAS OPERATIVOS ===
+.DS_Store
+Thumbs.db
+
+# === CONFIGURACIÓN LOCAL Y SENSIBLE ===
+.env
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+secreto.txt
